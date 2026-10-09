@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "musicplayer",
+  "version": "${version}",
+  "name": "Music Player",
+  "description": "A highly customizable client-side music player for Minecraft.",
+  "authors": ["OpenAI"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.musicplayer.client.MusicPlayerClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
