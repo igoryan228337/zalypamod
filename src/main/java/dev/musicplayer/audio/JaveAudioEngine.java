@@ -1,7 +1,10 @@
 package dev.musicplayer.audio;
 
 import dev.musicplayer.library.Track;
-import ws.schild.jave.*;
+import ws.schild.jave.Encoder;
+import ws.schild.jave.MultimediaObject;
+import ws.schild.jave.encode.AudioAttributes;
+import ws.schild.jave.encode.EncodingAttributes;
 import javax.sound.sampled.*;
 import java.io.*;
 import java.nio.file.*;

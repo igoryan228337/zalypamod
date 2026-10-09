@@ -1,0 +1,8 @@
+.gradle/
+build/
+dist/
+.tools/
+run/
+*.class
+build.log
+zalypamod-sync-work/

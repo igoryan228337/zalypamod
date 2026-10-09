@@ -6,10 +6,7 @@ group = project.maven_group
 version = project.mod_version
 base { archivesName = project.archives_base_name }
 repositories { mavenCentral() }
-loom {
-    splitEnvironmentSourceSets()
-    mods { musicplayer { sourceSet sourceSets.main; sourceSet sourceSets.client } }
-}
+// All mod Java sources currently live in src/main/java; use one source set so Minecraft client APIs are available during compilation.
 dependencies {
     minecraft "com.mojang:minecraft:${minecraft_version}"
     mappings loom.officialMojangMappings()
